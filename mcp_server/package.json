@@ -1,0 +1,20 @@
+{
+  "name": "crisis-response-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server exposing web_search_tool and official_registry_tool for crisis response verification",
+  "type": "module",
+  "scripts": {
+    "start": "tsx server.ts",
+    "build": "tsc",
+    "dev": "tsx watch server.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "tsx": "^4.19.0",
+    "@types/node": "^22.0.0"
+  }
+}
