@@ -1,0 +1,22 @@
+[project]
+name = "crisis-response-allocator"
+version = "1.0.0"
+description = "Multi-agent crisis response system using Google ADK — Kaggle AI Agents Capstone (Agents for Good)"
+requires-python = ">=3.10"
+dependencies = [
+    "google-adk>=1.0.0",
+    "google-genai>=1.0.0",
+    "pydantic>=2.0.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.optional-dependencies]
+test = [
+    "behave>=1.2.6",
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.23.0",
+]
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.backends._legacy:_Backend"
